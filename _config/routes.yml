@@ -1,0 +1,9 @@
+---
+Name: ssbuttonroutes
+After:
+  - '#rootroutes'
+  - '#coreroutes'
+---
+SilverStripe\Control\Director:
+  rules:
+    'ss-button-admin': 'Marcz\SSButton\Admin\AdminController'

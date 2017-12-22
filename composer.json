@@ -1,0 +1,26 @@
+{
+  "name": "marcz/ss-button",
+  "description": "SilverStripe admin interface",
+  "type": "silverstripe-module",
+  "homepage": "http://silverstripe.org",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "silverstripe",
+    "admin"
+  ],
+  "require": {
+    "silverstripe/framework": "^4@dev",
+    "silverstripe/versioned": "^1@dev"
+  },
+  "require-dev": {
+    "phpunit/PHPUnit": "~4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Marcz\\SSButton\\": "code/",
+      "Marcz\\SSButton\\Tests\\": "tests/php/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

@@ -1,0 +1,26 @@
+# ignore cache folder
+/silverstripe-cache/
+
+# ignore .env file
+/.env
+
+# ignore build tools
+/tools/phing-metadata
+
+# ignore composer vendor folder
+/vendor/
+
+# ignore default modules from composer
+/asset-admin/
+/campaign-admin/
+/cms/
+/framework/
+/graphql/
+/reports/
+/silverstripe-admin/
+/silverstripe-assets/
+/siteconfig/
+/themes/simple/
+/versioned/
+/testsession/
+/node_modules/
